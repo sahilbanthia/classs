@@ -1,0 +1,34 @@
+{
+  "name": "nwitter",
+  "description": "A twitter clone written with Node.js, Express, and MongoDB",
+  "version": "2.1.0",
+  "repository": "https://github.com/sahilbanthia/node-twitter",
+  "private": false,
+  "author": "SahilBanthia<banthiasahil557@gmail.com>",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "make test",
+    "upgrade-interactive": "npm-check --update",
+    "postinstall": "opencollective postinstall"
+  },
+  "engines": {
+    "node": "12.18.3",
+    "npm": "6.14.6"
+  },
+  "dependencies": {
+    "async": "latest",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.18.1",
+    "compression": "^1.7.1",
+    "connect-flash": "latest",
+    "connect-mongo": "latest",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.3.3",
+    "csurf": "^1.10.0",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.0",
+    "eslint": "^7.12.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "forever": "latest
