@@ -68,15 +68,7 @@ $(document).ready(function() {
       let originalText = $modifiedTweet.attr('placeholder');
       let modifiedText = $modifiedTweet.val();
       if (modifiedText !== originalText) {
-        // Make a PUT request to /tweets/:id
-        let tweetId = $editButton.closest('.tweet').attr('data-tweetId');
-        $.ajax($editButton.attr('href'), {
-          method: 'POST',
-          data: {id: tweetId, tweet: modifiedText},
-          success: function(data) {},
-          error: function(data) {},
-        });
-      }
+        \
       
       // The same replace method in tweeet.pug file
       // TODO: find solution to reuse the same code
